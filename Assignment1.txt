@@ -1,0 +1,15 @@
+Integer totalSum=0;
+List<integer> listOfNumbers = new List <Integer>();
+Integer maxListSize = 20;
+for(Integer i = 1; i <= maxListSize; i++){
+listOfNumbers.add(i);
+}
+System.debug('listOfNumbers: ' + listOfNumbers);
+
+for(Integer i = 1; i < listofNumbers.size(); i++){
+    if(Math.mod(listofNumbers[i], 2) == 0){
+		totalsum= totalsum + listofNumbers[i];
+    	}
+}
+
+System.debug('Final sumation: ' + totalSum);
